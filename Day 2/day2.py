@@ -19,7 +19,7 @@ try:
                     strValue = str(value)
                     if strLength % 2 == 0:
                         if strValue[0:(strLength // 2)] == strValue[strLength // 2:]:
-                            print(f"Valid value found: {strValue}")
+                            print(f"Invalid value found: {strValue}")
                             sumOfInvalids += value
                     value += 1
     print(f"Sum of invalid values: {sumOfInvalids}")
