@@ -16,7 +16,7 @@ try:
     countOfZeroes = 0
     countofSteps = 0
     print(f"Starting Location: {location}")
-    with open('Day 1/Day 1 input.csv', 'r') as inputFile:
+    with open('Day 1/Day_1_input.csv', 'r') as inputFile:
         for line in inputFile:
             
             direction = line[0]
