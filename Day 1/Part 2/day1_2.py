@@ -24,7 +24,7 @@ try:
     countofSteps = 1
     rotations = 0
     print(f"Starting Location: {location}")
-    with open('Day 1_1/Day_1_1_input.csv', 'r') as inputFile:
+    with open('Day 1/Part 2/Day_1_2_input.csv', 'r') as inputFile:
         for line in inputFile:
             
             direction = line[0]

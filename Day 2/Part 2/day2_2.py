@@ -1,7 +1,7 @@
 try:
     sumOfInvalids = 0
     countofInvalids = 0
-    with open('Day 2_1/Day_2_1_input.csv', 'r') as inputLine:
+    with open('Day 2/Part 2/Day_2_2_input.csv', 'r') as inputLine:
         for line in inputLine:
             ranges = line.split(",")
             for range in ranges:
