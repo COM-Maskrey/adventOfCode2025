@@ -1,6 +1,5 @@
 try:
     tilesArray = []
-    nextCircuitID = 1
     with open('Day 9/Part 1/Day_9_1_input.csv', 'r') as inputFile:
         # Load all the tile locations into an array
         while True:
